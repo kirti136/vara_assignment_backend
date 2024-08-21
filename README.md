@@ -5,7 +5,7 @@ This is the backend API for the Vara Assignment. It collects water usage data vi
 
 ## Demo Video 
 
- - [Demo Video](https://drive.google.com/file/d/1H0nnJiNiWfXqdH7soxwjDUf1q2SS9Nyz/view?usp=drive_link)
+ - [Demo Video](https://drive.google.com/file/d/1cPKpavF3BU58YvwYd_rWFWJ39Ig0unfx/view?usp=sharing)
 
 ## Run Locally
 
