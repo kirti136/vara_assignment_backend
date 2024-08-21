@@ -1,7 +1,7 @@
 
 # Vara Assignment Backend
 
-This is the backend API for the Vara Assignment. It collects water usage data via WhatsApp using Twilio, stores the data in an Excel file, and sends periodic reminders to users. The project is built with Node.js, Express, Twilio, and XLSX for Excel file handling.
+This is the backend API for the Vara Assignment. It collects water usage data via WhatsApp using Twilio, stores the data in an Excel file, and sends periodic reminders to users. The project is built with Node.js, Express, Twilio, ngrok and XLSX for Excel file handling.
 
 ## Demo Video 
 
