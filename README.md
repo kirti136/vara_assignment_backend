@@ -74,7 +74,7 @@ vara_assignment_backend/
 
 ├── data/
  
-│   ├── water-usage.xlsx  # Stores data
+│   └── water-usage.xlsx  # Stores data
 
 |
  
