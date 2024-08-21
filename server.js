@@ -18,7 +18,7 @@ setInterval(
     sendWaterUsageReminder("+918669664848")
       .then((message) => console.log("Reminder sent:", message.sid))
       .catch((err) => console.error("Error sending reminder:", err.message)),
-  10 * 1000
+  5 * 60 * 1000
 );
 
 // Server
