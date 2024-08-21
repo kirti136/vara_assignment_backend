@@ -70,24 +70,14 @@ POST /whatsapp
 vara_assignment_backend/
 
 │ 
- 
 ├── services/
- 
 │   ├── twilioService.js  # Handles Twilio communication
- 
 │   └── dataService.js    # Manages data storage in Excel sheets
- 
 │
- 
 ├── routes/
- 
 │   └── whatsapp.js       # Route handling WhatsApp messages
- 
 │
- 
 ├── .env                   # Environment variables
- 
 ├── server.js              # Main server file
- 
 └── package.json           # Project dependencies and scripts
  
