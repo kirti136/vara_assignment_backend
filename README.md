@@ -27,8 +27,7 @@ Start the server
   npm run start or npm start
 ```
 
-Expose the server using ngrok
-
+Expose the server using ngrok and update the forwarding URL in the Twilio Console:
 ```bash
   ngrok http 3000
 ```
