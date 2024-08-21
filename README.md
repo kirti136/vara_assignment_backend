@@ -27,7 +27,8 @@ Start the server
   npm run start or npm start
 ```
 
-Expose the server using ngrok and update the forwarding URL in the Twilio Console:
+Expose the server using ngrok (also update the forwarding URL in the Twilio console sandbox configuration)
+
 ```bash
   ngrok http 3000
 ```
@@ -70,14 +71,33 @@ POST /whatsapp
 vara_assignment_backend/
 
 │ 
+
+├── data/
+ 
+│   ├── water-usage.xlsx  # Stores data
+
+|
+ 
 ├── services/
+ 
 │   ├── twilioService.js  # Handles Twilio communication
+ 
 │   └── dataService.js    # Manages data storage in Excel sheets
+ 
 │
+ 
 ├── routes/
+
+│   ├── index.js          # Main router file that combines all routes 
+ 
 │   └── whatsapp.js       # Route handling WhatsApp messages
+ 
 │
+ 
 ├── .env                   # Environment variables
+ 
 ├── server.js              # Main server file
+ 
 └── package.json           # Project dependencies and scripts
+ 
  
